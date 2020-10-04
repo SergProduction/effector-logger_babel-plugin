@@ -17,7 +17,7 @@ true way include
 {
   "env": {
     "dev": {
-      "plugins": [ "effector-logger" ]
+      "plugins": [ "@effector-logger/babel-plugin" ]
     }
     "production": {
       "plugins": [ // don't including this here effector logger plugin ]
@@ -31,7 +31,7 @@ alternative way
 ```
 {
   "plugins": [
-    ["effector-logger", { off: false | true }]
+    ["@effector-logger/babel-plugin", { off: false | true }]
   ]
 }
 ```
