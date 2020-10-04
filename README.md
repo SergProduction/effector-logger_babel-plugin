@@ -11,7 +11,7 @@ This plugin replaces the name import effector with the effector-logger
 ## Setting
 `.babelrc`  
 
-try way include  
+true way include  
 
 ```
 {
